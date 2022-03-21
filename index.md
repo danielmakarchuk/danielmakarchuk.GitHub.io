@@ -1,5 +1,5 @@
 ---
-title: "my resume"
+title: my resume
 ---
 
 # Daniel Makarchuk  
