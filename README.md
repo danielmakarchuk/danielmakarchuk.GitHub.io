@@ -33,7 +33,7 @@ Etter describes various advantages of lightweight markup languages such as markd
    *  Create index.md in GitHub, or,
    *  Clone the repository and create index.md locally with your editor of choice (Typora, Atom, Visual Studio Code, etc.).
 4. Write your Resume in markdown in the index.md file.
-5. Add index.md into the GitUsername.GitHub.io repository.
+5. Add the index.md file into the GitUsername.GitHub.io repository.
    * If written on GitHub, commit the changes into the GitUsername.GitHub.io repository.
    * If written locally:
       * Commit the changes and push to the itUsername.GitHub.io repository, or,
@@ -79,7 +79,9 @@ plugins:
 
 ![a demo for finding your cite](https://github.com/danielmakarchuk/danielmakarchuk.GitHub.io/blob/main/SiteSearch.gif)
 
-If unsatisfied by the themes GitHub automatically supports check out Jekyll. The process is more complicated than the one described above.  The Jekyll documentation will walk you through how to use it.
+After step 10 you should be able to see your resume hosted as a static website.
+
+* If unsatisfied by the themes GitHub automatically supports check out Jekyll. The process is more complicated than the one described above.  The Jekyll documentation will walk you through how to use it.
 
 ### Updating the Resume
 Another reason Etter likes static websites is because they are easy to update.  Simply make a change in index.md and rebuild the cite.  The changes should appear after the rebuild.
@@ -89,7 +91,7 @@ Another reason Etter likes static websites is because they are easy to update.  
     *  If edited locally, commit then push the change.
 12. Go to step 9.
 
-
+After step 12 you should be able to see the changes to your resume on the static website.
 ## More Resources
 ---
 1. [A markdown tutorial](https://www.markdowntutorial.com/)
@@ -116,4 +118,3 @@ processor?
 
 1. Why is my resume not showing up?
    * Sometimes GitHub does not automatically apply updates.  Most updates are applied within twenty minutes of completion.  Though when overloaded GitHub may take upwards of an hour to apply the changes.
-
