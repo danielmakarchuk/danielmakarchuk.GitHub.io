@@ -21,20 +21,21 @@ To make a static website as Etter encourages, there must have a location to host
 
 1.	Log into the GitHub account you want the resume hosted at.
 2.	Create a new repository named: GitUsername.GitHub.io.
-    * You only get one public website on GitHub.  If you are already hosting a site, use a different github account or delete the repository holding the old website.
+    * You only get one public website on GitHub.  If you are already hosting a site, use a different GitHub account or delete the repository holding the old website.
+3. Make sure that the new repository is set to Public.
 
-After step 2 you should have on your Github account a repository named GitUsername.GitHub.io.
+After step 2 you should have on your GitHub account a repository named GitUsername.GitHub.io.
 
 This repository will be used to create and host a static website for the resume.
 ### Creating the Resume
 ---
 Etter describes various advantages of lightweight markup languages such as markdown. One advantage is that markdown can easily be turned into good XML.  This XML is necessary to generate static websites.  This is important for when you want to convert a document like your resume into a static website.
 
-3. Create a .md file called index.md.
+4. Create a .md file called index.md.
    *  Create index.md in GitHub, or,
    *  Clone the repository and create index.md locally with your editor of choice (Typora, Atom, Visual Studio Code, etc.).
-4. Write your Resume in markdown in the index.md file.
-5. Add the index.md file into the GitUsername.GitHub.io repository.
+5. Write your Resume in markdown in the index.md file.
+6. Add the index.md file into the GitUsername.GitHub.io repository.
    * If written on GitHub, commit the changes into the GitUsername.GitHub.io repository.
    * If written locally:
       * Commit the changes and push to the itUsername.GitHub.io repository, or,
@@ -51,18 +52,18 @@ This resume in index.md will be the contents of the static website.
 ---
 Etter likes static websites.  They offer a robust and secure way of hosting your resume.  So long as GitHub is up the resume website will be up.  
 
-The following steps describe how to create the resume website with GitHubs slate theme.  If another theme is wanted, follow the link to all themes supported by GitHub in more resources. 
+The following steps describe how to create the resume website with GitHub's slate theme.  If another theme is wanted, follow the link to all themes supported by GitHub in more resources. 
 
-6. Create a new file in the GitUsername.GitHub.io repository and name it _config.yml.
-7. For the slate theme copy and paste the below code into _config.yml.
+7. Create a new file in the GitUsername.GitHub.io repository and name it _config.yml.
+8. For the slate theme copy and paste the below code into _config.yml.
 
 ```
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme
 ```
-8. Commit the changes to _config.yml. to Github.
-9. Check the header directly above the repository's files.
+9. Commit the changes to _config.yml. to GitHub.
+10. Check the header directly above the repository's files.
    *  If a green checkmark appears the build  proceed to the next step.
 
    *  If an orange dot is present wait about five minutes and check again.
@@ -74,7 +75,7 @@ plugins:
          * 	Compare the documentation’s recommended code to the code in _config.yml.  
          *  If different, replace the _config.yml code with the code in the documentation.
        * **c.**	Go back to step 8.
-10. Search for your website.
+11. Search for your website.
     *  type GitUsername.GitHub.io into the address bar.
     *  The below animated GIF demonstrates how to search for your website.
 
@@ -87,10 +88,10 @@ After step 10 you should be able to see your resume hosted as a static website.
 ### Updating the Resume
 Another reason Etter likes static websites is because they are easy to update.  Simply make a change in index.md and rebuild the cite.  The changes should appear after the rebuild.
 
-11. Edit the index.md.
+12. Edit the index.md.
     *  If edited on GitHub, commit the change.
     *  If edited locally, commit then push the change.
-12. Go to step 9.
+13. Go to step 9.
 
 After step 12 you should be able to see the changes to your resume on the static website.
 ## More Resources
@@ -117,5 +118,5 @@ processor?
 
    * In the world of computer science lightweight markup languages like markdown are used in documentation.  By using markup instead of a word processor, skills potential employers may be impressed by are displayed.
 
-1. Why is my resume not showing up?
+2. Why is my resume not showing up?
    * Sometimes GitHub does not automatically apply updates.  Most updates are applied within twenty minutes of completion.  Though when overloaded GitHub may take upwards of an hour to apply the changes.
