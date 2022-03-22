@@ -17,17 +17,18 @@ This README Describes the practical steps of how to host a resume on GitHub Page
 ### Setup
 ---
 
-To make a static website as Etter encourages, there must have a location to host the site from.  The distributed version control site GitHub is a great location to do so.  GitHub allows for easy modification, allows users to do offline edits, and offers version control.
+To make a static website as Etter encourages, there must have a location to host the site from.  The distributed version control site GitHub is a great location to do so at.  GitHub allows for easy modification, allows users to do offline edits, and offers version control.  All advantages Etter discusses in his book.
 
 1.	Log into the GitHub account you want the resume hosted at.
 2.	Create a new repository named: GitUsername.GitHub.io.
+    * You only get one public website on GitHub.  If you are already hosting a site, use a different github account or delete the repository holding the old website.
 
 After step 2 you should have on your Github account a repository named GitUsername.GitHub.io.
 
 This repository will be used to create and host a static website for the resume.
 ### Creating the Resume
 ---
-Etter describes various advantages of lightweight markup languages such as markdown. One advantage is that markdown can easily be turned into good XML.  This XML is necessary to generate static websites.  
+Etter describes various advantages of lightweight markup languages such as markdown. One advantage is that markdown can easily be turned into good XML.  This XML is necessary to generate static websites.  This is important for when you want to convert a document like your resume into a static website.
 
 3. Create a .md file called index.md.
    *  Create index.md in GitHub, or,
@@ -37,8 +38,8 @@ Etter describes various advantages of lightweight markup languages such as markd
    * If written on GitHub, commit the changes into the GitUsername.GitHub.io repository.
    * If written locally:
       * Commit the changes and push to the itUsername.GitHub.io repository, or,
-         * a. Copy the markdown into index.md in the GitUsername.GitHub.io repository.
-         * b. Commit the changes in the GitUsername.GitHub.io repository.
+         * **a.** Copy the markdown into index.md in the GitUsername.GitHub.io repository.
+         * **b.** Commit the changes in the GitUsername.GitHub.io repository.
 
 After step 5 you should have in the GitUsername.GitHub.io repository a file named index.md containing your resume written in markdown.
 
@@ -48,7 +49,7 @@ This resume in index.md will be the contents of the static website.
 
 ### Hosting the Resume Website on GitHub Pages
 ---
-Etter likes static websites.  They offer a robust and secure way of hosting your resume.  So long as GitHub is up the resume will be up.  
+Etter likes static websites.  They offer a robust and secure way of hosting your resume.  So long as GitHub is up the resume website will be up.  
 
 The following steps describe how to create the resume website with GitHubs slate theme.  If another theme is wanted, follow the link to all themes supported by GitHub in more resources. 
 
@@ -113,7 +114,7 @@ After step 12 you should be able to see the changes to your resume on the static
 1. Why is Markdown better than a word
 processor?
    * markdown and can be quickly and efficiently turned into XML which is required to generate static websites.  To host a word file, it would have to be translated it into lightweight markup (like markdown) before turning it into a website.  Writing in markdown removes a step from the process of hosting a static website.
-   * Some common word processors like Microsoft word cost money to use.  Markdown has many editors such as Visual studio which are free to download.  
+
    * In the world of computer science lightweight markup languages like markdown are used in documentation.  By using markup instead of a word processor, skills potential employers may be impressed by are displayed.
 
 1. Why is my resume not showing up?
