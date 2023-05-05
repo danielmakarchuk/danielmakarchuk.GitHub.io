@@ -4,6 +4,7 @@ title: my resume
 
 # Daniel Makarchuk  
 (204) 851 1592 | makarchd@myumanitoba.ca
+
 GitHub: https://github.com/danielmakarchuk 
 
 ## EDUCATION
@@ -51,8 +52,9 @@ September 2016 – August 2018
 2016-2018
 - Helped Ensured events ran smoothly by setting up the tables and books.
 
-Community cleanups: 2014-2018
-•	I have participated in garbage cleans up with the First Virden Scouts
+**Community cleanups** 
+2014-2018
+- I have participated in garbage clean ups in and around Virden with the First Virden Scouts
 
 
 **Interests**
