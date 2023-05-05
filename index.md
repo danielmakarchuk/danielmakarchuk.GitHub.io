@@ -46,7 +46,7 @@ September 2016 – August 2018
 **Church suppers**  
 2016-2018
 
-- Helped Ensured events ran smoothly by washing dishes
+- Helped Ensured events ran smoothly by washing dishes.
 
 **Library book sales**  
 2016-2018
@@ -54,7 +54,7 @@ September 2016 – August 2018
 
 **Community cleanups** 
 2014-2018
-- I have participated in garbage clean ups in and around Virden with the First Virden Scouts
+- I have participated in garbage clean ups in and around Virden with the First Virden Scouts.
 
 
 **Interests**
